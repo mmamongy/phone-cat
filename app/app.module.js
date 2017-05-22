@@ -1,7 +1,8 @@
 'use strict' ;
 // define phoneapp module 
 
-angular.module('phonecatApp',[
+var phonecatApp = angular.module('phonecatApp', [
     // depends on phone list
-    'phoneList'
+  'ngRoute',
+  'phonecatControllers'
 ]) ;
